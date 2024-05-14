@@ -1,0 +1,108 @@
+/* tableList.css */
+
+.bookTable {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .tableList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .tableDisplay {
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .tableDisplay img {
+    max-width: 50%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  .table_info {
+    flex: 1.5; 
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 20px; 
+  }
+  
+  .table_info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .table_info p {
+    font-size: 1rem;
+    margin-bottom: 6px;
+  }
+  
+  .table_info input[type="checkbox"] {
+    margin-top: 8px;
+  }
+  
+  /* Pagination styling */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .pagination__link {
+    margin: 5px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pagination__link--disabled {
+    color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pagination__link--active:not(:hover) {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+  }
+  
+  .pagination__link:hover:not(.pagination__link--disabled) {
+    background-color: #ccc;
+  }
+  
+  .pagination__page {
+    margin: 5px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination__page:hover,
+  .pagination__page--active {
+    background-color: #007bff;
+  }
+  
+  .pagination__page--active {
+    color: #fff;
+    border: 1px solid #007bff;
+    cursor: default;
+  }
+  

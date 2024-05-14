@@ -1,0 +1,99 @@
+.ManageTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tablesDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tablesDetail ul {
+    padding: 0;
+    list-style: none;
+}
+
+.tablesDetail li {
+    margin-bottom: 10px;
+}
+
+.addForm {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.showForm {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.showForm > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showForm form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.showForm form label {
+    margin-bottom: 10px;
+}
+
+.showForm form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.showForm form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.showForm form button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.addForm button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.addForm button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

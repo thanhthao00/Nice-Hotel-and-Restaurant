@@ -1,0 +1,45 @@
+.roomList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 0%;
+}
+
+.room-info {
+    width: 100%;
+    margin-bottom: 2%;
+    padding: 3%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(217, 217, 217, 0.5);
+}
+
+.roomList .overlap {
+    position: relative;
+}
+
+.roomList .overlap {
+    height: 100%;
+}
+
+.description {
+    font-size: 160%;
+    margin-left: 40%;
+    margin-top: -16%;
+
+}
+
+.type {
+    position: absolute;
+    left: 40%;
+    font-size: 400%;
+    top: -10%;
+}
+  
+.room-img {
+    width: 30vw;
+    height: 45vh;
+    border-radius: 5%;
+    margin-top: -2.5%;
+}

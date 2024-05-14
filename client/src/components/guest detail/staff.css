@@ -1,0 +1,65 @@
+.StaffDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  border: 1px solid #ccc; 
+  padding: 15px; 
+}
+
+.StaffDetail img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.StaffDetail h3 {
+  margin-bottom: 10px;
+}
+
+.StaffDetail p {
+  margin: 5px 0;
+}
+
+.StaffDetail label {
+  display: block;
+  margin: 5px 0;
+}
+
+.StaffDetail input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.StaffDetail button {
+  padding: 8px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.StaffDetail button.delete {
+  background-color: #ff6961;
+  color: #fff;
+}
+
+.StaffDetail button.edit {
+  background-color: #ffd700;
+  color: #000;
+}
+
+.handleBtn {
+  display: flex;
+  justify-content: center;
+}
+
+.editForm {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}

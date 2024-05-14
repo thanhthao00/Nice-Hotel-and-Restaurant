@@ -1,0 +1,123 @@
+.admin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+  width: 100vw;
+}
+
+#adminInfo {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.adminDisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-card {
+  display: flex;
+  flex-direction: row; /* Change the direction to row */
+  align-items: center;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.admin-details {
+  flex-grow: 1;
+  padding: 20px;
+  text-align: left;
+}
+
+.adminDisplay img {
+  margin-right: 20px; /* Move the image to the right */
+  border-radius: 50%;
+}
+
+#admin-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.admin-position,
+.email,
+.birthday,
+.address,
+.role,
+.create {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.logout {
+  background-color: #d9534f; /* Màu đỏ */
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 20%; /* Set the width to 80% */
+  margin: 20px auto; /* Center the button horizontally with margin auto */
+}
+
+.logout:hover {
+  background-color: #c9302c; /* Màu đỏ đậm khi hover */
+}
+
+.adminButton {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 10px; /* Push the adminButton to the bottom */
+  height: 100%;
+}
+
+.adminButton button {
+  background-color: #5bc0de; /* Màu xanh dương */
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none; /* Loại bỏ underline */
+  width: 10%;
+  height: 20%;
+}
+
+.adminButton button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.adminButton button:hover {
+  background-color: #46b8da; /* Màu xanh dương đậm khi hover */
+  color: #fff; /* Màu chữ trắng khi hover */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .admin-card {
+      flex-direction: column;
+      align-items: center; /* Center items horizontally */
+  }
+
+  img {
+      margin-right: 0; /* Reset margin for smaller screens */
+      margin-bottom: 20px; /* Add some margin at the bottom of the image */
+  }
+
+  .admin-details {
+      text-align: center;
+  }
+}

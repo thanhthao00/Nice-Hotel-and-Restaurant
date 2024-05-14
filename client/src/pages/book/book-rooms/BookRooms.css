@@ -1,0 +1,35 @@
+
+
+.bookRoomContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.bookRoomContainer h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.bookRoomDisplay {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px; 
+}
+
+.rl {
+  flex: 2.5; 
+}
+
+.rf {
+  flex: 1;
+  max-width: 600px; 
+  margin-left: 80px;
+}
+
+
+
+

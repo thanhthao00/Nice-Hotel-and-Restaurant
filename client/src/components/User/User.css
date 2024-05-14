@@ -1,0 +1,84 @@
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.employee-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Căn giữa nội dung */
+}
+
+.user-detail {
+  display: flex;
+  align-items: center;
+}
+
+.employee-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+#employeeInfo {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#employee-name span,
+#employee-position span,
+#email span,
+.birthday span,
+.address span,
+.role span,
+.salary span,
+.create span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.logout {
+  background-color: #ff5757;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: auto;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.logout:hover {
+  background-color: #d44444;
+  transform: scale(1.05);
+}
+
+button.bill {
+  background-color: #681dea;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: auto;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button.bill:hover {
+  background-color: #7323db;
+  transform: scale(1.05);
+}

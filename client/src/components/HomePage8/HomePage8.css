@@ -1,0 +1,11 @@
+.homepage8 {
+    height: 72%;
+    left: 0;
+    position: abolute;
+    object-fit: cover;
+    top: 0;
+    width: 60%;
+    background-image: url(./feature6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}

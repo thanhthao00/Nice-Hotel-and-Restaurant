@@ -1,0 +1,10 @@
+.homepage1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./HomePage1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 

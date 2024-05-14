@@ -1,0 +1,29 @@
+
+.bill-container {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .bill-container  p {
+    margin: 5px 0;
+  }
+  
+  .bill-container  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .bill-container  li {
+    margin-bottom: 20px;
+  }
+  
+  .bill-container .total-amount {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,433 @@
+.home-page {
+    background-color: #ffffff; 
+    position: absolute;
+    overflow: visible; 
+    width: 100%;
+}
+
+.home-page .intro {
+    height: 50%;
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    display: flex;
+}
+
+.home-page .overlap-group {
+    background-size: 100% 100%;
+    background-image: url(../../components/shape/rectangle-2.svg);
+    height: 58%;
+    position: absolute;
+    width: 80%;
+    left: 11%;
+}
+
+.home-page .welcome-to-nice {
+    position: absolute;
+    color: #fff9f9;
+    font-family: "Inter", Helvetica;
+    font-size: 155%;
+    font-weight: 400;
+    height: 10%;
+    left: 17.5%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: center;
+    text-align: center;
+    top: 40%;
+    width: 65%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.home-page .text-wrapper-1 {
+    color: #1e1e1e;
+    font-family: 'Junge', Helvetica, sans-serif;
+    font-size: 350%;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 103%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.home-page .overlap-2 {
+    height: 100%;
+    left: 0%;
+    position: absolute;
+    top: 118%;
+    width: 100%;
+}
+  
+.home-page .overlap-3 {
+    height: 100%;
+    left: 2%;
+    position: absolute;
+    top: 0;
+    width: 98%;
+}
+
+.home-page .p {
+    color: #302615e6;
+    font-family: "Inter", Helvetica;
+    font-size: 140%;
+    font-weight: 400;
+    left: 66%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10%;
+    width: 33%;
+}
+
+.home-page .text-wrapper-2 {
+    color: #302615e6;
+    font-family: "Inter", Helvetica;
+    font-size: 125%;
+    font-weight: 400;
+    left: 2%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 110%;
+    width: 55%;
+}
+
+.home-page .overlap-4 {
+    height: 100%;
+    left: -1%;
+    position: absolute;
+    top: 180%;
+    width: 100%;
+}
+
+.home-page .overlap-5 {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: -0.2%;
+    width: 100%;
+}
+
+.home-page .restaurant-group {
+    height: 100%;
+    left: 55%;
+    position: absolute;
+    top: 205%;
+    width: 40%;
+}
+
+.home-page .overlap-6 {
+    height: 100%;
+    left: 0;
+    position: relative;
+    width: 100%;
+}
+
+.home-page .rectangle-2 {
+    height: 30%;
+    left: -45%;
+    position: absolute;
+    top: -3%;
+    width: 100%;
+}
+
+.home-page .line {
+    height: 100%;
+    left: -27%;
+    position: absolute;
+    top: -32%;
+    width: 1.66%;
+}
+
+.home-page .line-2 {
+    height: 100%;
+    left: -26.5%;
+    position: absolute;
+    top: -50%;
+    width: 129.5%;
+}
+
+.home-page .celebrate {
+    color: #9c7357;
+    font-family: "Inter", Helvetica;
+    font-size: 145%;
+    font-weight: 400;
+    left: -25%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 12%;
+}
+
+.home-page .text-wrapper {
+    color: #1e1e1e;
+    font-family: 'Junge', Helvetica, sans-serif;;
+    font-size: 400%;
+    font-weight: 400;
+    left: -20%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    object-fit: cover;
+    top: 1%;
+    width: 1%;
+}
+
+.home-page .line-3 {
+    height: 10%;
+    left: -29%;
+    position: absolute;
+    top: -7%;
+    width: 135%;
+}
+  
+.home-page .line-4 {
+    height: 100%;
+    left: 104%;
+    position: absolute;
+    top: -33.5%;
+    width: 2.8%;
+}
+
+.home-page .line-1-2 {
+    height: 100%;
+    left: 102%;
+    position: absolute;
+    top: -32%;
+    width: 1.66%;
+}
+
+.home-page .line-2-2 {
+    height: 100%;
+    left: -29.5%;
+    position: absolute;
+    top: -33.5%;
+    width: 2.8%;
+}
+
+.home-page .room-group {
+    height: 40%;
+    left: 0;
+    position: absolute;
+    top: 320%;
+    width: 100%;
+}
+  
+.home-page .overlap-7 {
+    height: 100%;
+    left: 0.9%;
+    position: relative;
+    width: 60%;
+    top: 0.5%;
+}
+  
+.home-page .rectangle-3 {
+    height: 100%;
+    left: 1%;
+    position: absolute;
+    top: -10%;
+    width: 100%;
+}
+
+.home-page .line-5 {
+    height: 100%;
+    left: 27%;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+}
+  
+.home-page .line-6 {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: -50%;
+    width: 77%;
+}
+
+.home-page .line-7 {
+    height: 100%;
+    left: 0%;
+    position: absolute;
+    top: -55%;
+    width: 80%;
+}
+
+.home-page .line-8 {
+    height: 105%;
+    left: 29.3%;
+    position: absolute;
+    top: -5%;
+    width: 100%;
+}
+
+.home-page .text-wrapper3 {
+    color: #1e1e1e;
+    font-family: 'Junge', Helvetica, sans-serif;;
+    font-size: 400%;
+    font-weight: 400;
+    left: 57%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 8%;
+    width: 0%;
+}
+
+.home-page .line-13 {
+    height: 1.13%;
+    left: 25%;
+    position: absolute;
+    top: 623%;
+    width: 50%;
+}
+
+.home-page .line-14 {
+    height: 3%;
+    left: 0%;
+    position: absolute;
+    top: 620%;
+    width: 100%;
+}
+
+.home-page .text-wrapper-8 {
+    color: #9c7357;
+    font-family: "Inter", Helvetica;
+    font-size: 140%;
+    font-weight: 400;
+    left: 1%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 516%;
+    width: 43%;
+}
+
+.home-page .overlap-8 {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 539%;
+    width: 100%;
+}
+
+.home-page .pool-group {
+    height: 100%;
+    left: 60%;
+    position: absolute;
+    top: 10%;
+    width: 40%;
+}
+
+.home-page .line-9 {
+    height: 1.25%;
+    left: 0%;
+    position: absolute;
+    top: 5%;
+    width: 93%;
+}
+  
+.home-page .line-10 {
+    height: 1.25%;
+    left: 0%;
+    position: absolute;
+    top: 47%;
+    width: 93%;
+}
+
+.home-page .line-11 {
+    height: 2.9%;
+    left: -2%;
+    position: absolute;
+    top: 2%;
+    width: 100%;
+}
+
+.home-page .line-12 {
+    height: 2.9%;
+    left: -2%;
+    position: absolute;
+    top: 49%;
+    width: 100%;
+}
+
+.home-page .line-12-1 {
+    height: 100%;
+    left: 92%;
+    position: absolute;
+    top: -22.9%;
+    width: 2.02%;
+}
+
+.home-page .line-12-2 {
+    height: 100%;
+    left: 94%;
+    position: absolute;
+    top: -22.6%;
+    width: 3.6%;
+}
+
+.home-page .cool-off {
+    color: #9c7357;
+    font-family: "Inter", Helvetica;
+    font-size: 140%;
+    font-weight: 400;
+    left: 7%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 18%;
+    width: 80%;
+}
+
+.home-page .text-wrapper-7 {
+    color: #1e1e1e;
+    font-family: 'Junge', Helvetica, sans-serif;;
+    font-size: 400%;
+    font-weight: 400;
+    left: 5%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 7%;
+}
+
+.home-page .overlap-wrapper {
+    height: 100%;
+    left: -3%;
+    position: absolute;
+    top: 200%;
+    width: 100%;
+}
+
+.home-page .overlap-9 {
+    height: 50%;
+    position: relative;
+    width: 100%;
+}
+  
+.home-page .text-wrapper-10 {
+    color: #9c7357;
+    font-family: "Inter", Helvetica;
+    font-size: 140%;
+    font-weight: 400;
+    left: 20%;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 90%;
+    width: 60%;
+}

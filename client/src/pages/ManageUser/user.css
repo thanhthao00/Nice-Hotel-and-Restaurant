@@ -1,0 +1,85 @@
+.ManageUser {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ManageUser h2 {
+    color: #333;
+}
+
+.ManageUser ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ManageUser li {
+    margin-bottom: 20px;
+}
+
+.GuestDetails {
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.GuestDetails h3 {
+    color: #333;
+}
+
+.GuestDetails p {
+    margin: 8px 0;
+    color: #555;
+}
+
+.GuestDetails button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.GuestDetails button:hover {
+    background-color: #c82333;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.pagination__link,
+.pagination__page {
+    margin: 5px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pagination__link--disabled,
+.pagination__page--disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.pagination__link--active:not(:hover),
+.pagination__page--active:not(:hover) {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+}
+
+.pagination__link:hover:not(.pagination__link--disabled),
+.pagination__page:hover:not(.pagination__page--disabled) {
+    background-color: #ccc;
+}

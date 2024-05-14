@@ -1,0 +1,60 @@
+.DishDetail {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    max-width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .DishDetail img {
+    width: 100%;
+    max-height: 200px; 
+    object-fit: cover; 
+    margin-bottom: 10px;
+  }
+  
+  .DishDetail h3 {
+    margin-bottom: 10px;
+  }
+  
+  .DishDetail p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .DishDetail label {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .DishDetail input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .DishDetail button {
+    padding: 8px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .DishDetail button.edit {
+    background-color: #5bc0de;
+    color: #fff;
+  }
+  
+  .DishDetail button.danger {
+    background-color: #d9534f;
+    color: #fff;
+  }
+  
+  .DishDetail button:hover {
+    opacity: 0.8;
+  }
+  

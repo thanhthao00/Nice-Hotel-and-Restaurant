@@ -1,0 +1,11 @@
+.homepage5 {
+    height: 130%;
+    left: 3%;
+    object-fit: cover;
+    position: absolute;
+    top: 80%;
+    width: 44%;
+    background-image: url(./feature4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

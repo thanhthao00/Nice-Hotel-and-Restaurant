@@ -1,0 +1,9 @@
+- Synthesize use-case specification files into a unified file
+- Edit and add 3 more use-cases to the use-case specification: Guest Management, Contact, Check Out
+- Revise and add Use-case Diagram
+- Complete Class Diagram
+- Complete Software Architecture Document
+- Record changes in plan allocation to members
+- Design database, learn and install user interface
+- Complete weekly report
+- Complete Sprint Planning, Sprint Review

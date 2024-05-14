@@ -1,0 +1,53 @@
+.TableDetail {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 20vw;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .TableDetail h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .TableDetail p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .TableDetail label {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .TableDetail input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .TableDetail button {
+    padding: 8px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .TableDetail button.edit {
+    background-color: #5bc0de;
+    color: #fff;
+  }
+  
+  .TableDetail button.danger {
+    background-color: #d9534f; 
+    color: #fff;
+  }
+  
+  .TableDetail button:hover {
+    opacity: 0.8;
+  }
+  

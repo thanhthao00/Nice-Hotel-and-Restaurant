@@ -1,0 +1,9 @@
+- Complete sprint planning
+- Complete sprint review
+- Complete weekly report
+- Revision SAD:
+	- Added 2 last sections: Deployment and Implementation view
+	- Added MVC: revised model and added database
+- Continue with the installation of the user interface, booking feature and management feature
+- Fixed problems caused by lack of regular meetings (dividing work, setting deadlines for each member,...)
+- Discussed test cases

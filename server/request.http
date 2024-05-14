@@ -1,0 +1,314 @@
+POST http://localhost:5000/api/auth/register_guest
+Content-Type: application/json
+
+{
+    "email": "nam@gmail.com",
+    "password": "nam",
+    "full_name": "Phan Phước Hải Nam",
+    "phone_number": "0777777777",
+    "address": "Sài Gòn",
+    "birthday": "2003-11-31",
+    "user_id": "123456789874"
+}
+
+###
+POST http://localhost:5000/api/auth/register_staff
+Content-Type: application/json
+
+{
+    "email": "minh@gmail.com",
+    "password": "minh",
+    "full_name": "Huỳnh Cao Minh",
+    "phone_number": "0222222222",
+    "address": "Củ Chi",
+    "birthday": "2003-1-1",
+    "user_id": "123456789874"
+}
+
+
+###
+POST http://localhost:5000/api/auth/register_System_Admin
+Content-Type: application/json
+
+{
+    "email": "system_admin@gmail.com",
+    "password": "len",
+    "full_name": "Bùi Tiến Lên",
+    "phone_number": "066666666",
+    "address": "Sài Gòn",
+    "birthday": "1980-2-2",
+    "user_id": "123456789874"
+}
+
+###
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "email": "toan@gmail.com",
+    "password": "toan"
+}
+
+###
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "email": "thao@gmail.com",
+    "password": "thao"
+}
+
+###
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "email": "system_admin@gmail.com",
+    "password": "len"
+}
+
+###
+GET http://localhost:5000/api/user/info
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU3MzFlNWM2ZjQzMDZlYzQ1ZjY4OGMiLCJpYXQiOjE3MDEyMjE3Mjh9.zVYMbkWp7xs4njFy5ueusYCcb8W1wMYE8y-19vKR93w
+
+###
+GET http://localhost:5000/api/user/find_info/system_admin@gmail.com
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU3MzQwYWM2ZjQzMDZlYzQ1ZjY4OWIiLCJpYXQiOjE3MDAyMTM3NzV9.Wrg2gLrQU4RypNlEnbGOUeKF7K0Q5acJQysIE-ZpfWc
+
+###
+GET http://localhost:5000/api/user/get_guest_list
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU3MzQwYWM2ZjQzMDZlYzQ1ZjY4OWIiLCJpYXQiOjE3MDAyMTc4Mjh9.DiDAm1JomSQM2oyjSwBGViEpwCnyqvLbRxXEvZ7qJk4
+###
+GET http://localhost:5000/api/user/get_staff_list
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU3Mzk4MWM2ZjJkOWMxMWNlMmY5MGMiLCJpYXQiOjE3MDAyMTc4NzN9.PDZyYwtP7kddsT7tVCS6_mHyAN38BMhbdTFGe1cI1D4
+
+###
+PUT http://localhost:5000/api/user/user_info
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU3MzFlNWM2ZjQzMDZlYzQ1ZjY4OGMiLCJpYXQiOjE3MDMxMjg3ODB9.YL3Tg5O5s8HmDIMN-MeAl_sNwneo_F54aHPV-P6bdMY
+
+{
+    "email": "toan@gmail.com",
+    "full_name": "Phạm Khánh Toàn",
+    "phone_number": "0777777777",
+    "address": "Đồng Nai",
+    "birthday": "2003-11-31"
+}
+
+###
+PUT http://localhost:5000/api/user/user_info/toan@gmail.com
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTY5MzY1MmMzZWRjMjllMjg3MWE5OTEiLCJpYXQiOjE3MDMxMzI3ODN9.XnRs-dNxXp8LY_22-Pwgjmiq7LOtXDMMkOQb_IDUh4o
+
+{
+    "email": "toan@gmail.com",
+    "full_name": "Phạm Khánh Toàn",
+    "phone_number": "0777777777",
+    "address": "Biên Hòa",
+    "birthday": "2003-11-31"
+}
+
+###
+DELETE http://localhost:5000/api/user/nam@gmail.com
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTY5MzY1MmMzZWRjMjllMjg3MWE5OTEiLCJpYXQiOjE3MDE4Mjc4Nzl9.NdXBbDod_Bx2Ni31SwX4BYeSPtvyimNEYY4U_I-8EXc
+
+###
+POST http://localhost:5000/api/feedback
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU3MzQwYWM2ZjQzMDZlYzQ1ZjY4OWIiLCJpYXQiOjE3MDMwNjk2MTd9.DUDZswKUscZQl5gAjPXxYMggkKNdRrdGCzf-JvBJoMw
+Content-Type: application/json
+
+{
+    "description": "Mô tả của phòng 5 aaaaaaaaaaaa",
+    "rate": 5
+}
+
+
+###
+GET http://localhost:5000/api/feedback
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU3MzQwYWM2ZjQzMDZlYzQ1ZjY4OWIiLCJpYXQiOjE3MDMwNjk2MTd9.DUDZswKUscZQl5gAjPXxYMggkKNdRrdGCzf-JvBJoMw
+
+###
+GET http://localhost:5000/api/feedback/all
+
+
+###
+DELETE http://localhost:5000/api/feedback/6565ec0e42ddfd195365f406
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU3MzFlNWM2ZjQzMDZlYzQ1ZjY4OGMiLCJpYXQiOjE3MDExNzc2ODR9.TinI-Hyy_2H0n7b6ZV-nXAbsgz-ZDoqn-ICIkxcW3pU
+
+###
+PUT http://localhost:5000/api/feedback/6565e9c0753f4d9ec90f0a94
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU3MzFlNWM2ZjQzMDZlYzQ1ZjY4OGMiLCJpYXQiOjE3MDExNzc2ODR9.TinI-Hyy_2H0n7b6ZV-nXAbsgz-ZDoqn-ICIkxcW3pU
+Content-Type: application/json
+
+{
+    "description": "Phong xau vl",
+    "rate": 5
+}
+
+###
+POST http://localhost:5000/api/table/add_table
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU3Mzk4MWM2ZjJkOWMxMWNlMmY5MGMiLCJpYXQiOjE3MDExODE4OTF9.s7weV8dmRi9Le-KX2ZE0NiggYw1W8dygbWx4E7Fo3BE
+Content-Type: application/json
+
+{
+    "table_type": "Table1",
+    "table_number": "1",
+    "state": "true",
+    "price": 500000
+}
+
+###
+PUT http://localhost:5000/api/table/update_table
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU3Mzk4MWM2ZjJkOWMxMWNlMmY5MGMiLCJpYXQiOjE3MDExODE4OTF9.s7weV8dmRi9Le-KX2ZE0NiggYw1W8dygbWx4E7Fo3BE
+Content-Type: application/json
+
+{
+    "table_type": "Table1",
+    "table_number": "1",
+    "state": "true",
+    "price": 555000
+}
+
+###
+DELETE http://localhost:5000/api/table/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU3Mzk4MWM2ZjJkOWMxMWNlMmY5MGMiLCJpYXQiOjE3MDExODE4OTF9.s7weV8dmRi9Le-KX2ZE0NiggYw1W8dygbWx4E7Fo3BE
+
+###
+Get http://localhost:5000/api/table/info/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTY5MzY1MmMzZWRjMjllMjg3MWE5OTEiLCJpYXQiOjE3MDE0MjQwODZ9.kMPk31o0TmS8vbXFOSnQVT18JpDmGybv0Z3Dr8IqtLo
+
+
+###
+GET http://localhost:5000/api/room/available_rooms
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTZhODkyMzk2NWY4ZGRkN2NlZTcxZGIiLCJpYXQiOjE3MDE5MTcwMjZ9.DT15EqGXA9n8jbf_t1bIR7GMI9fNRTIvJMbZV4_RC6g
+
+###
+GET http://localhost:5000/api/table/available_tables
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTZhODkyMzk2NWY4ZGRkN2NlZTcxZGIiLCJpYXQiOjE3MDE5MTcwMjZ9.DT15EqGXA9n8jbf_t1bIR7GMI9fNRTIvJMbZV4_RC6g
+
+
+###
+POST http://localhost:5000/api/booking/book_room
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTZhODkyMzk2NWY4ZGRkN2NlZTcxZGIiLCJpYXQiOjE3MDI4OTAzNDR9.D0R-OY36OhWKVTnPCC3s4s3yhqf8HUDrAMKXhH93zqE
+Content-Type: application/json
+
+{
+    "room_number": "104",  
+    "start_room_date": "2023-12-19T00:00:00Z",
+    "end_room_date": "2023-12-20T00:00:00Z",
+    "number_adults": 2,
+    "number_child": 1
+}
+
+###
+POST http://localhost:5000/api/table/add_table
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTY5MzY1MmMzZWRjMjllMjg3MWE5OTEiLCJpYXQiOjE3MDE0ODA4NDh9.mSVxuvYLUMdNeJ9D3sK4i38xwCCOs6FkuJdkJgKONlg
+Content-Type: application/json
+
+{
+    "table_type": "Table9",
+    "table_number": "9",
+    "state": "true",
+    "price": 300000
+}
+
+###
+POST http://localhost:5000/api/booking/book_table
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTZhODkyMzk2NWY4ZGRkN2NlZTcxZGIiLCJpYXQiOjE3MDI4NjU2Njl9.KLvTIhAPfM3NKAjI0QAh8bTPUavXYV-HSK9QnipTz0w
+Content-Type: application/json
+
+{
+    "table_number": "9",  
+    "full_name" :"Nam1",
+    "phone_number":"0908789879",
+    "table_date": "2023-12-23T00:00:00Z"
+}
+
+###
+POST http://localhost:5000/api/dish/add_dish
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTY5MzY1MmMzZWRjMjllMjg3MWE5OTEiLCJpYXQiOjE3MDMwODQ2NDh9.H-LNNsOcEuzOVDLn3-ePE94cANbDt_p16Q4cEr7YOJI
+Content-Type: application/json
+
+{
+    "dish_name": "Panna Cotta",
+    "dish_type": "desserts",
+    "description": "An elegant dessert that marries the delicate creaminess of custard with the sweet essence of strawberries.",
+    "state": "true"
+}
+
+###
+PUT http://localhost:5000/api/dish/update_dish
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTY5MzY1MmMzZWRjMjllMjg3MWE5OTEiLCJpYXQiOjE3MDE5MTY3OTB9.o7d3yATC2SqEHzFCZKKuPXxZOS84_B7QIWvDGA9cm2E
+Content-Type: application/json
+
+{
+    "dish_name": "Strawberry Panna Cotta",
+    "dish_type": "desserts",
+    "description": "An elegant dessert that marries the delicate creaminess of custard with the sweet essence of strawberries.",
+    "state": "true"
+}
+
+###
+DELETE http://localhost:5000/api/dish/Strawberry Panna Cotta
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTY5MzY1MmMzZWRjMjllMjg3MWE5OTEiLCJpYXQiOjE3MDE0MTc4NDh9.QIHOAYsDV53S7KWjak-l1lZD23BIVO-LC2y5H78l_MU
+Content-Type: application/json
+
+###
+GET http://localhost:5000/api/dish/get_all_dish
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTY5MzY1MmMzZWRjMjllMjg3MWE5OTEiLCJpYXQiOjE3MDE0MTc4NDh9.QIHOAYsDV53S7KWjak-l1lZD23BIVO-LC2y5H78l_MU
+Content-Type: application/json
+
+###
+GET http://localhost:5000/api/room/info/106
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTY5MzY1MmMzZWRjMjllMjg3MWE5OTEiLCJpYXQiOjE3MDE0MTc4NDh9.QIHOAYsDV53S7KWjak-l1lZD23BIVO-LC2y5H78l_MU
+
+###
+GET http://localhost:5000/api/room/all_rooms
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTY5MzY1MmMzZWRjMjllMjg3MWE5OTEiLCJpYXQiOjE3MDE0MTc4NDh9.QIHOAYsDV53S7KWjak-l1lZD23BIVO-LC2y5H78l_MU
+
+###
+POST http://localhost:5000/api/room/add_room
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTY5MzY1MmMzZWRjMjllMjg3MWE5OTEiLCJpYXQiOjE3MDE0MTc4NDh9.QIHOAYsDV53S7KWjak-l1lZD23BIVO-LC2y5H78l_MU
+Content-Type: application/json
+
+{
+    "room_type": "Presidential Suite",
+    "room_number": "106",
+    "description": "The most luxurious and expansive suite in a hotel, often featuring opulent furnishings, multiple bedrooms and bathrooms, a private dining area, a kitchen, and exclusive services.",
+    "state": "true",
+    "capacity": 2,
+    "price": 5000000,
+    "discount": 20
+}
+
+###
+PUT http://localhost:5000/api/room/update_room
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTY5MzY1MmMzZWRjMjllMjg3MWE5OTEiLCJpYXQiOjE3MDE0MTc4NDh9.QIHOAYsDV53S7KWjak-l1lZD23BIVO-LC2y5H78l_MU
+Content-Type: application/json
+
+{
+    "room_type": "Presidential Suite",
+    "room_number": "106",
+    "description": "The most luxurious and expansive suite in a hotel, often featuring opulent furnishings, multiple bedrooms and bathrooms, a private dining area, a kitchen, and exclusive services.",
+    "state": "true",
+    "capacity": 2,
+    "price": 5000000,
+    "discount": 20
+}
+
+###
+DELETE http://localhost:5000/api/room/106
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTY5MzY1MmMzZWRjMjllMjg3MWE5OTEiLCJpYXQiOjE3MDE0MTc4NDh9.QIHOAYsDV53S7KWjak-l1lZD23BIVO-LC2y5H78l_MU
+
+
+
+###
+GET http://localhost:5000/api/booking/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTZhODkyMzk2NWY4ZGRkN2NlZTcxZGIiLCJpYXQiOjE3MDI4NzAxNjF9.wF3q0suBaoqOy_WPbGOOf0lz5Fn44aTtniG9m573UDQ
+
+###
+POST http://localhost:5000/api/booking/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTZhODkyMzk2NWY4ZGRkN2NlZTcxZGIiLCJpYXQiOjE3MDI4NzAxNjF9.wF3q0suBaoqOy_WPbGOOf0lz5Fn44aTtniG9m573UDQ
+
+###
+GET http://localhost:5000/api/room/all_rooms_public

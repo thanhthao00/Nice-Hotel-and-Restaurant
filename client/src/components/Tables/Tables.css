@@ -1,0 +1,19 @@
+.tableContainer {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tableContainer img {
+    width: 100px;
+    height: 80px;
+}
+
+.table_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+

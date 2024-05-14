@@ -1,0 +1,64 @@
+.dishContainer {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.dishContainer .type-name {
+    color: 1e1e1e;
+    font-family: "Junge", Helvetica;
+    font-size: 400%;
+    font-weight: 400;
+    height: 5%;
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+
+.dishContainer .list {
+    margin-bottom: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10%;
+    margin-left: 3%;
+}
+
+.dishContainer .dish .dish-img {
+    height: 200px;
+    width: 200px;
+}
+
+.dishContainer .dish {
+    display: flex;
+    flex-direction: row;
+}
+
+.dishContainer .dish .dishInfo {
+    height: 100%;
+    width: 60%;
+    background-color: #4b4b4b;
+}
+
+.dishContainer .name {
+    color: #ffffff;
+    font-family: "Junge", Helvetica;
+    font-size: 200%;
+    font-weight: 400;
+    height: 40%;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dish p {
+    color: #ffffff;
+    font-family: "Junge", Helvetica;
+    font-size: 120%;
+    font-weight: 400;
+    height: 10%;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: left;
+    margin-left: 15px;
+    
+}

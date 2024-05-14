@@ -1,0 +1,447 @@
+.index {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.index .overlap-1 {
+    height: 120%;
+    left: 0;
+    position: absolute;
+    top: 130%;
+    width: 100%;
+}
+
+.index .text-wrapper-0 {
+    color: #302615e6;
+    font-family: "Junge", Helvetica;
+    font-size: 120%;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 118%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.index .rectangle-1 {
+    background-color: #d9d9d9;
+    height: 85%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 8%;
+    width: 100%;
+}
+
+.index .text-wrapper-1 {
+    color: #1e1e1e;
+    font-family: "Junge", Helvetica;
+    font-size: 100%;
+    font-weight: 10%;
+    left: 85%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 30%;
+}
+
+.index .text-wrapper-2 {
+    color: #1e1e1e;
+    font-family: "Junge", Helvetica;
+    font-size: 100%;
+    font-weight: 10%;
+    left: 60%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 30%;
+}
+
+.index .text-wrapper-3 {
+    color: #1e1e1e;
+    font-family: "Junge", Helvetica;
+    font-size: 100%;
+    font-weight: 400;
+    left: 35%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 30%;
+}
+
+.index .text-wrapper-4 {
+    color: #1e1e1e;
+    font-family: "Junge", Helvetica;
+    font-size: 100%;
+    font-weight: 400;
+    left: 10%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 30%;
+}
+
+.index .text-wrapper-5 {
+    color: #1e1e1e;
+    font-family: "Junge", Helvetica;
+    font-size: 100%;
+    font-weight: 400;
+    left: 85%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+}
+
+.index .text-wrapper-6 {
+    color: #1e1e1e;
+    font-family: "Junge", Helvetica;
+    font-size: 100%;
+    font-weight: 400;
+    left: 60%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+}
+
+.index .text-wrapper-7 {
+    color: #1e1e1e;
+    font-family: "Junge", Helvetica;
+    font-size: 100%;
+    font-weight: 400;
+    left: 35%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+}
+
+.index .text-wrapper-8 {
+    color: #1e1e1e;
+    font-family: "Junge", Helvetica;
+    font-size: 100%;
+    font-weight: 400;
+    left: 10%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+}
+
+.index .text-wrapper-9 {
+    color: #1e1e1e;
+    font-family: "Junge", Helvetica;
+    font-size: 100%;
+    font-weight: 400;
+    left: 85%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 70%;
+}
+
+.index .text-wrapper-10 {
+    color: #1e1e1e;
+    font-family: "Junge", Helvetica;
+    font-size: 100%;
+    font-weight: 400;
+    left: 60%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 70%;
+}
+
+.index .text-wrapper-11 {
+    color: #1e1e1e;
+    font-family: "Junge", Helvetica;
+    font-size: 100%;
+    font-weight: 400;
+    left: 35%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 70%;
+}
+
+.index .text-wrapper-12 {
+    color: #1e1e1e;
+    font-family: "Junge", Helvetica;
+    font-size: 100%;
+    font-weight: 400;
+    left: 10%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 70%;
+}
+
+.index .tv {
+    height: 7%;
+    left: 80%;
+    object-fit: cover;
+    position: absolute;
+    top: 28%;
+    width: 4%;
+}
+
+.index .roomservice {
+    height: 7%;
+    left: 55%;
+    object-fit: cover;
+    position: absolute;
+    top: 28%;
+    width: 4%;
+}
+
+.index .hair {
+    height: 7%;
+    left: 30%;
+    object-fit: cover;
+    position: absolute;
+    top: 28%;
+    width: 4%;
+}
+
+.index .coffee {
+    height: 7%;
+    left: 5%;
+    object-fit: cover;
+    position: absolute;
+    top: 28%;
+    width: 4%;
+}
+
+.index .ac {
+    height: 7%;
+    left: 4%;
+    object-fit: cover;
+    position: absolute;
+    top: 48%;
+    width: 5%;
+}
+
+.index .house {
+    height: 7%;
+    left: 30%;
+    object-fit: cover;
+    position: absolute;
+    top: 48%;
+    width: 4%;
+}
+
+.index .robes {
+    height: 7%;
+    left:55%;
+    object-fit: cover;
+    position: absolute;
+    top: 48%;
+    width: 4%;
+}
+
+.index .water {
+    height: 8%;
+    left:81%;
+    object-fit: cover;
+    position: absolute;
+    top: 48%;
+    width: 4%;
+}
+
+.index .pillow {
+    height: 7%;
+    left: 55%;
+    object-fit: cover;
+    position: absolute;
+    top: 68%;
+    width: 4%;
+}
+
+.index .fridge {
+    height: 8%;
+    left: 5%;
+    object-fit: cover;
+    position: absolute;
+    top: 68%;
+    width: 4%;
+}
+
+.index .slipper {
+    height: 8%;
+    left: 30%;
+    object-fit: cover;
+    position: absolute;
+    top: 68%;
+    width: 4%;
+}
+
+.index .boiler {
+    height: 7%;
+    left: 80%;
+    object-fit: cover;
+    position: absolute;
+    top: 68%;
+    width: 4%;
+}
+
+.index .include {
+    height: 6%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    color: #1e1e1e;
+    font-family: "Junge", Helvetica;
+    font-size: 250%;
+    font-weight: 100%;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.index .text-wrapper-13 {
+    color: #1e1e1e;
+    font-family: "Junge", Helvetica;
+    font-size: 450%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 240%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.index .room-list {
+    height: 350%;
+    left: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 255%;
+    width: 100%;
+}
+
+.index .attention {
+    height: 60%;
+    left: 0;
+    top: 75%;
+    width: 96%;
+}
+
+.index .rectangle-2 {
+    height: 100%;
+    left: 0%;
+    width: 104%;
+}
+
+.index .time {
+    color: #1e1e1e;
+    font-family: "Inter", Helvetica;
+    font-size: 200%;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 3%;
+}
+
+.index .text-wrapper-14 {
+    color: #1e1e1e;
+    font-family: "Inter", Helvetica;
+    font-size: 150%;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 3%;
+}
+
+.index .text-wrapper-15 {
+    -webkit-text-stroke: 1px #00000080;
+    color: #1e1e1e;
+    font-family: "Inter", Helvetica;
+    font-size: 200%;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 3%;
+  }
+  
+.index .text-wrapper-16 {
+    -webkit-text-stroke: 1px #00000080;
+    color: #1e1e1e;
+    font-family: "Inter", Helvetica;
+    font-size: 200%;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 3%;
+  }
+  
+.index .text-wrapper-17 {
+    color: #1e1e1e;
+    font-family: "Inter", Helvetica;
+    font-size: 150%;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 3%;
+}
+  
+.index .text-wrapper-18 {
+    color: #1e1e1e;
+    font-family: "Inter", Helvetica;
+    font-size: 150%;
+    font-weight: 400;
+    margin-left: 3%;
+    letter-spacing: 0;
+    line-height: normal;
+}
+  
+.index .text-wrapper-19 {
+    -webkit-text-stroke: 1px #00000080;
+    color: #1e1e1e;
+    font-family: "Inter", Helvetica;
+    font-size: 200%;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 3%;
+  }
+  
+.index .text-wrapper-20 {
+    color: #1e1e1e;
+    font-family: "Inter", Helvetica;
+    font-size: 150%;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 3%;
+}
+
+.index .text-wrapper-21 {
+    color: #1e1e1e;
+    font-family: "Junge", Helvetica;
+    font-size: 400%;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+}
+
+.end {
+    width: 104%;
+    margin-top: 3%;
+    padding: 3%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(217, 217, 217, 0.5);
+}
